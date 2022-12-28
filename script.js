@@ -6,7 +6,7 @@ btn.addEventListener("click", () => {
   let randY = Math.floor((Math.random() * height) + 1);
   let randX = Math.floor((Math.random() * width) + 1);
   btn.style.top = randY + "px";
-  btn.style.right = randX + "px";
+  btn.style.left = randX + "px";
   document.getElementById("desc").style.display = "none"
 });
 
